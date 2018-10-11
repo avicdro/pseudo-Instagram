@@ -1,0 +1,230 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+}
+/* cabecera */
+.margen-sup {
+    height: 48px;
+}
+.header-fijo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.header-fijo hr {
+    margin: 0%;
+}
+
+header {
+    height:45px;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between; 
+    background-color: white;
+    font-size: 24px;
+}
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    font-size: 18px;
+}
+
+/* Opciones/menu */
+.ver-opciones {
+    overflow: hidden;
+}
+.opciones-cabecera {
+    display: none;
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.activado {
+    display: block;
+}
+.menu-cabecera {
+    height:45px;
+    padding: 0% 5%;
+    display: flex;
+    z-index: -1;
+    justify-content: space-between; 
+    background-color: white;
+    font-size: 24px;
+    border-bottom: 1px solid #999999;
+}
+.opciones {
+    z-index: 12;
+}
+.menu-cabecera div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opciones-titulo {
+    margin-right: 40%; 
+    font-size: 18px;
+}
+.opciones-cont {
+    padding-top: 1px;
+    margin-bottom: 65px; 
+}
+.opciones-cont span{
+    font-weight: 600;
+    color: #999; 
+}
+.opciones-cont .op{
+    list-style: none;
+    width: 90%;
+    margin: 0%;
+    padding: 3% 5%; 
+    border-top: .5px solid rgba(153, 153, 153, 0.514);
+    border-bottom: .5px solid rgba(153, 153, 153, 0.514);
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-conjunto {
+    color: #999;
+    background-color: rgba(169, 169, 169, 0.13); 
+    font-size: 14px;
+    font-weight: 600;
+}
+.cerrar-sesion {
+    position: relative;
+    bottom: -18px;
+    color: red;
+}
+
+/* Pie de pagina */
+footer {
+    height:45px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: white;
+    font-size: 24px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+footer div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+
+/* caja padre */
+.caja-padre {    
+    margin: 0% auto 30px;
+    max-width: 935px;
+    justify-content: center;
+}
+
+/* seccion descripcion usuario */
+.descripcion-perfil {
+    margin: 30px 16px 30px 0px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 30% auto;
+    
+}
+.img-perfil {
+    grid-row: 1 / 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-perfil button{
+    width: 65%;
+    padding: 0%;
+    background-color: transparent;
+    border: none;
+}
+
+.img-perfil button img{
+    border-radius: 50%;
+    width: 100%;
+    height: 90%;
+    border: 1px solid #4845457a;
+}
+.nombre-usuario {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.boton-editar-perfil {
+    padding: 15px 0%;
+}
+
+.boton-editar-perfil button {
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid #4845457a;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* secccion datos */
+.datos-usuario {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0%;
+}
+[id*="num-"] {
+    display: block;
+    text-align: center;
+}
+.publicaciones a, 
+.seguidores a, 
+.seguidos a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenido-usuario {
+    display: grid;
+    grid-auto-rows: auto 40%;
+    margin: 0% 1%;
+}
+.iconos-acceso {
+    padding: 5% 0%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.iconos-acceso div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+}
+.iconos-acceso div:hover {
+    color: #003569;
+}
+.vista-contenido {
+    padding: 66px 44px;
+}

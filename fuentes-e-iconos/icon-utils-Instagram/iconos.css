@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icon-utils-Instagram';
+  src:  url('fonts/icon-utils-Instagram.eot?gd0xfr');
+  src:  url('fonts/icon-utils-Instagram.eot?gd0xfr#iefix') format('embedded-opentype'),
+    url('fonts/icon-utils-Instagram.ttf?gd0xfr') format('truetype'),
+    url('fonts/icon-utils-Instagram.woff?gd0xfr') format('woff'),
+    url('fonts/icon-utils-Instagram.svg?gd0xfr#icon-utils-Instagram') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-utils-Instagram' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\e900";
+}
+.icon-bookmark-outline:before {
+  content: "\e901";
+}
+.icon-home-outline:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-plus-square:before {
+  content: "\e905";
+}
+.icon-user-plus:before {
+  content: "\e906";
+}
+.icon-share-2:before {
+  content: "\e907";
+}
+.icon-search:before {
+  content: "\e908";
+}
+.icon-grid:before {
+  content: "\e909";
+}
+.icon-squares:before {
+  content: "\e909";
+}
+.icon-compass:before {
+  content: "\e90a";
+}
+.icon-direction:before {
+  content: "\e90a";
+}
+.icon-guide:before {
+  content: "\e90a";
+}
+.icon-camera:before {
+  content: "\e911";
+}
+.icon-settings:before {
+  content: "\e90b";
+}
+.icon-cog:before {
+  content: "\e90b";
+}
+.icon-preferences:before {
+  content: "\e90b";
+}
+.icon-copyright:before {
+  content: "\e912";
+}
+.icon-instagram:before {
+  content: "\e913";
+}
+.icon-heart-o:before {
+  content: "\e90c";
+}
+.icon-heart:before {
+  content: "\e90d";
+}
+.icon-user-o:before {
+  content: "\e90e";
+}
+.icon-user-plus2:before {
+  content: "\e90f";
+}
+.icon-user:before {
+  content: "\e910";
+}
+.icon-group:before {
+  content: "\e904";
+}
+.icon-users:before {
+  content: "\e904";
+}
+.icon-camera2:before {
+  content: "\e914";
+}
+.icon-spinner6:before {
+  content: "\e97f";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-happy2:before {
+  content: "\e9e0";
+}
+.icon-page-break:before {
+  content: "\ea68";
+}

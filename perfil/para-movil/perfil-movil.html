@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo-instagram</title>
+    <link rel="stylesheet" href="../../fuentes-e-iconos/icon-utils-Instagram/iconos.css">
+    <link rel="stylesheet" href="perfil-movil.css">
+    <script src="perfil-movil.js"></script>
+</head>
+<body class="" id="cuerpo-app">
+    <!-- cabecera de la aplicacion -->
+    <div class="margen-sup"><!-- Da margen para la cabecera que es fija --></div>
+    <div class="header-fijo">
+        <header>
+            <div class="opciones"  id="menu-opciones-1">
+                <span class="icon-cog" id="icono"></span>
+            </div>
+            <div class="perfil">
+                Perfil
+            </div>
+            <div class="descubre-personas">
+                <span class="icon-user-plus"></span>
+            </div>
+        </header>
+        <hr>    
+    </div>
+    <!-- opciones - cabecera -->
+    <div class="opciones-cabecera ">
+        <div class="header-fijo menu-cabecera" id="menu-opciones-2">
+            <div class="opciones" id="menu-opciones-3">
+                <span class="icon-close"></span>
+            </div>
+            <div class="opciones-titulo">
+                Opciones
+            </div>    
+        </div>
+        <div class="opciones-cont">
+            <li class="op titulo-conjunto">CUENTA</li>
+            <li class="op">Editar perfil <span>></span></li>
+            <li class="op">Cambiar contraseña <span>></span></li>
+            <li class="op">Privacidad y seguridad <span>></span></li>
+            <li class="op titulo-conjunto">CONFIGURACIÓN</li>
+            <li class="op">Idioma </li>
+            <li class="op">Aplicaciones autorizadas <span>></span></li>
+            <li class="op">Notificaciones<span>></span></li>
+            <li class="op titulo-conjunto">INFORMACIÓN</li>
+            <li class="op">Anuncios<span>></span></li>
+            <li class="op">Servicio de ayuda<span>></span></li>
+            <li class="op">Informar de un problema<span>></span></li>
+            <li class="op">Más<span>></span></li>
+            <li class="op cerrar-sesion">Cerrar sesión<span>></span></li>
+        </div>
+    </div>
+    <!-- contenido -->
+    <div class="caja-padre">
+        <section class="descripcion-perfil">
+            <div class="img-perfil">
+                <button>
+                    <img src="../imagenes/predetermined-perfil.jpg" alt="Añade una foto del perfil">
+                </button>
+            </div>
+            <div class="nombre-usuario">
+                avicdro 
+            </div>
+            <div class="boton-editar-perfil">
+                <button>Editar perfil</button>
+            </div>
+        </section>
+        <!-- Datos del usurio -->
+        <div class="datos-usuario">
+            <div class="publicaciones">
+                <span id="num-publicaciones">
+                    0
+                </span>
+                <a href="">publicaciones</a>
+            </div>
+            <div class="seguidores">
+                <span id="num-seguidores">
+                    0
+                </span>
+                <a href="">seguidores</a>
+            </div>
+            <div class="seguidos">
+                <span id="num-seguidos">
+                    0
+                </span>
+                <a href="">seguidos</a>
+            </div>
+        </div>
+
+        <!-- Publicaciones - Guardadas - Etiquetadas -->
+        <section class="contenido-usuario">
+            <div class="iconos-acceso">
+                <div class="publicaciones-cont"><span class="icon-grid"></span></div>
+                <div class="guardadas-cont"><span class="icon-page-break"></span></div>
+                <div class="guardadas-cont"><span class="icon-bookmark-outline"></span></div>
+                <div class="etiquetadas-cont"><span class="icon-happy"></span></div>
+            </div>
+            <div class="vista-contenido">
+                <div class="publicaciones-cont-vista">hola1</div>
+                <div class="guardadas-cont-vista">hola2</div>
+                <div class="guardadas-cont-vista">hola3</div>
+                <div class="etiquetadas-cont-vista">hola4</div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Pie de pagina - navegacion -->
+    <footer class="pie-de-pag">
+        <div class="principal"><span class="icon-home-outline"></span></div>
+        <div class="busqueda"><span class="icon-search"></span></div>
+        <div class="ingresar-publicacion"><span class="icon-plus-square"></span></div>
+        <div class="favoritos"><span class="icon-heart-o"></span></div>
+        <div class="perfil-pie"><span class="icon-user-o"></span></div>
+    </footer>
+    
+</body>
+</html>
